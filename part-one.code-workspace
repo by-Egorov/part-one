@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"security.workspace.trust.enabled": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.minimap.enabled": false,
+	"editor.tabSize": 2,
+	"editor.smoothScrolling": true,
+	"files.autoSave": "afterDelay",
+	"editor.fontSize": 15,
+	"breadcrumbs.enabled": false,
+	"files.defaultLanguage": "html",
+	"editor.detectIndentation": false,
+	"editor.wordWrap": "on",
+	"editor.glyphMargin": false,
+	"editor.hover.enabled": false, // отображение подсказок
+	"terminal.integrated.fontSize": 15,
+	"editor.renderWhitespace": "boundary",
+	"editor.lineHeight": 23,
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+	"ecsstractor_port.add_comment": false,
+	"ecsstractor_port.empty_line_before_nested_selector": false,
+	"ecsstractor_port.bem_nesting": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "~/../css"
+		}
+	],
+	"liveSassCompile.settings.excludeList": [
+		"/**/node_modules/**",
+		"/.vscode/**"
+	],
+	"workbench.colorTheme": "One Dark Pro",
+	"workbench.productIconTheme": "bootstrap-product-icons",
+	"workbench.iconTheme": "material-icon-theme",
+	"explorer.confirmDragAndDrop": false,
+	"editor.fontFamily": "'Consolas, 'Courier New', monospace",
+	}
+}
