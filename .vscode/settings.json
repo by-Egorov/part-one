@@ -38,4 +38,5 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"explorer.confirmDragAndDrop": false,
 	"editor.fontFamily": "'Consolas, 'Courier New', monospace",
+	"editor.smartSelect.selectLeadingAndTrailingWhitespace": true,
 }

@@ -50,9 +50,583 @@
 
 <body>
 
+	<wrapper class="wrapper">
+
+		<!--HEADER-->
+
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo logo">
+						<img src="img/logo.png" alt="">
+						<div class="header__text">
+							antools.
+						</div>
+					</div>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="##" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="##" class="menu__link">Categories</a>
+								<!-- Доп меню -->
+								<ul class="menu__list-sub">
+									<li class="menu__item-sub"><a class="menu__link-sub" href="##">Design</a></li>
+									<li class="menu__item-sub"><a class="menu__link-sub" href="##">Development</a></li>
+								</ul>
+								<!-- Доп меню -->
+							</li>
+							<li class="menu__item"><a href="##" class="menu__link">My Collections</a></li>
+							<li class="menu__item"><a href="##" class="menu__link">Blog</a></li>
+						</ul>
+					</nav>
+					<div class="registration">
+						<a href="#popup-login" class="registration__button-inline-link">Login</a>
+						<a href="#popup" class="registration__button-active-link">
+							<nobr>Sign Up</nobr>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!--HEADER-->
+
+		<!--MAIN-->
+
+		<section class="main">
+			<div class="container">
+				<div class="main__inner">
+					<div class="main__content content">
+						<div class="content__title">
+							Awesome tools for Designer & Developer
+						</div>
+						<div class="content__text">Antool is a web collection of information on paid or free Design and Development
+							tools</div>
+						<div class="content__search">
+							<!-- Поле поиска -->
+							<form>
+								<input type="text" placeholder="find more than 430+ tools...">
+								<img class="search-form" src="img/search.png" alt="search">
+								<button class="registration__button-active_link btn" type="submit">Search</button>
+							</form>
+							<!-- Поле поиска -->
+						</div>
+						<div class="content__social">
+							<a href="##" class="social-link"><img src="img/bx_bxl-facebook.png" alt="" class="social"></a>
+							<a href="##" class="social-link"><img src="img/bx_bxl-instagram.png" alt="" class="social"></a>
+							<a href="##" class="social-link"><img src="img/bx_bxl-twitter.png" alt="" class="social"></a>
+						</div>
+					</div>
+					<div class="main__image">
+						<img src="img/Illustration.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--MAIN-->
 
 
-	<script src="js/app.js"></script>
+
+		<!--ModalWindow Login in-->
+
+		<div id="popup" class="popup">
+			<a href="##" class="popup__area"></a>
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="##" class="popup__close">&#x2717</a>
+					<!--Кнопка закрытия-->
+					<!--Форма регестрации-->
+					<div class="container-fluid">
+
+						<div class="offset-md-4 col-md-4 offset-sm-3 col-sm-6">
+							<div class="form-container">
+								<h3 class="title">Create Account</h3>
+								<ul class="social-links">
+									<li><a href="##"><img src="img/bx_bxl-facebook.png" alt=""></a></li>
+									<li><a href="##"><img src="img/bx_bxl-instagram.png" alt=""></a></li>
+									<li><a href="##"><img src="img/bx_bxl-twitter.png" alt=""></a></li>
+								</ul>
+								<span class="description">or use you email for registration:</span>
+								<form class="form-horizontal">
+									<div class="form-group">
+										<input placeholder="Name:" type="text" class="form-control" required>
+									</div>
+									<div class="form-group">
+										<input placeholder="Email:" type="email" class="form-control" required>
+									</div>
+									<div class="form-group">
+										<input placeholder="Password:" type="password" class="form-control" required>
+									</div>
+									<div class="form-group">
+										<div class="checkbox">
+											<input type="checkbox" id="check" required><label for="check"></label>
+											<span class="check-label"> I agree to the <a href="##">Trems</a> and <a href="#">Privacy
+													Policy</a></span>
+										</div>
+
+									</div>
+									<div class="form-btn">
+										<a class="registration__button-signup" href="##">Sign up</a>
+										<a class="registration__button-signin" href="##">Sign in</a>
+									</div>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--ModalWindow Login in-->
+
+		<!--TOOLS-->
+
+		<section class="tools">
+			<div class="container">
+				<div class="tools__inner">
+					<div class="tools__title">Most Popular Tools</div>
+					<div class="tools__subtitle">Tools for the best Designers and Developers
+						most popularly used in the world</div>
+					<div class="tools__column columns">
+						<div class="columns__box">
+							<div class="columns__box-item row1">
+								<!--Поменять стиль при наведении всего блока и контента-->
+								<div class="box-item_column">
+									<div class="box-item">
+										<div class="box-item_figma-icon">
+											<img src="img/figma.png" alt="figma" class="figma-icon-title">
+										</div>
+										<div class="box-item_title">
+											FIGMA
+											<div class="box-item_subtile">Free</div>
+										</div>
+									</div>
+									<div class="box-item_text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</div>
+
+									<div class="box-item_iconItems">
+										<div class="box-item_icon">
+											<img class="box-item_icon_like" src="img/like.png" alt="">
+											<img src="img/like-active.png" alt="like" class="like-active">
+											<!--Поменять цвет картинки на красный( попробовать с svg)-->
+											<img class="box-item_icon_save" src="img/save.png" alt="">
+										</div>
+										<div class="figma-button"><a href="https://www.figma.com" target="_blank"
+												class="figma-button_link box-item-button">Visit</a></div>
+									</div>
+								</div>
+								<div class="box-item_column">
+									<div class="box-item">
+										<div class="box-item_sketch-icon">
+											<img src="img/sketch.png" alt="sketch" class="sketch-icon">
+										</div>
+										<div class="box-item_title">
+											Sketch
+											<div class="box-item_subtile">Trial & Paid</div>
+										</div>
+									</div>
+									<div class="box-item_text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</div>
+									<div class="box-item_iconItems">
+										<div class="box-item_icon">
+											<img class="box-item_icon_like" src="img/like.png" alt="">
+											<img src="img/like-active.png" alt="like" class="like-active">
+											<img class="box-item_icon_save" src="img/save.png" alt="">
+										</div>
+										<div class="sketch-button"><a href="https://www.sketch.com" target="_blank"
+												class="sketch-button_link box-item-button">Visit</a></div>
+									</div>
+								</div>
+								<div class="box-item_column">
+									<div class="box-item">
+										<div class="box-item_vsCode-icon">
+											<img src="img/vsCode.png" alt="vsCode" class="vsCode-icon">
+										</div>
+										<div class="box-item_title">
+											Visual Studio Code
+											<div class="box-item_subtile">Free</div>
+										</div>
+									</div>
+									<div class="box-item_text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</div>
+									<div class="box-item_iconItems">
+										<div class="box-item_icon">
+											<img class="box-item_icon_like" src="img/like.png" alt="">
+											<img src="img/like-active.png" alt="like" class="like-active">
+											<img class="box-item_icon_save" src="img/save.png" alt="">
+										</div>
+										<div class="vsCode-button"><a href="https://code.visualstudio.com" target="_blank"
+												class="vsCode-button_link box-item-button">Visit</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="columns__box-item row2">
+								<div class="box-item_column">
+									<div class="box-item">
+										<div class="box-item_notion-icon">
+											<img src="img/notion.png" alt="notion" class="notion-icon">
+										</div>
+										<div class="box-item_title">
+											Notion
+											<div class="box-item_subtile">Free & Paid</div>
+										</div>
+									</div>
+									<div class="box-item_text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</div>
+									<div class="box-item_iconItems">
+										<div class="box-item_icon">
+											<img class="box-item_icon_like" src="img/like.png" alt="">
+											<img src="img/like-active.png" alt="like" class="like-active">
+											<img class="box-item_icon_save" src="img/save.png" alt="">
+										</div>
+										<div class="notion-button"><a href="https://www.notion.so" target="_blank"
+												class="notion-button_link box-item-button">Visit</a></div>
+									</div>
+								</div>
+								<div class="box-item_column">
+									<div class="box-item">
+										<div class="box-item_slack-icon">
+											<img src="img/slack.png" alt="slack" class="slack-icon">
+										</div>
+										<div class="box-item_title">
+											Slack
+											<div class="box-item_subtile">Free & Paid</div>
+										</div>
+									</div>
+									<div class="box-item_text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</div>
+									<div class="box-item_iconItems">
+										<div class="box-item_icon">
+											<img class="box-item_icon_like" src="img/like.png" alt="">
+											<img src="img/like-active.png" alt="like" class="like-active">
+											<img class="box-item_icon_save" src="img/save.png" alt="">
+										</div>
+										<div class="slack-button"><a href="https://slack.com" target="_blank"
+												class="slack-button_link box-item-button">Visit</a></div>
+									</div>
+								</div>
+								<div class="box-item_column">
+									<div class="box-item">
+										<div class="box-item_invision-icon">
+											<img src="img/invision.png" alt="invision" class="invision-icon">
+										</div>
+										<div class="box-item_title">
+											Invision
+											<div class="box-item_subtile">Free & Paid</div>
+										</div>
+									</div>
+									<div class="box-item_text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</div>
+									<div class="box-item_iconItems">
+										<div class="box-item_icon">
+											<img class="box-item_icon_like" src="img/like.png" alt="">
+											<img src="img/like-active.png" alt="like" class="like-active">
+											<img class="box-item_icon_save" src="img/save.png" alt="">
+										</div>
+										<div class="invision-button"><a href="https://www.invisionapp.com" target="_blank"
+												class="invision-button_link box-item-button">Visit</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="tools__button">
+								<a href="##" class="tools__button-link">Load more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--TOOLS-->
+
+		<!--BRAND-->
+
+		<section class="brand">
+			<div class="container">
+				<div class="brand__inner">
+
+					<div class="brand__box">
+						<div class="brand__title">Trusted more than 150+ brand</div>
+						<div class="brand__box-column">
+							<div class="brand__box-item">
+								<div class="box-item">
+									<a href="https://www.microsoft.com/ru-ru" target="_blank" class="brand__link"><img
+											src="img/logos_microsoft.png" alt="microsoft" class="brand__icon"></a>
+								</div>
+							</div>
+							<div class="brand__box-item">
+								<div class="box-item">
+									<a href="https://www.google.com" target="_blank" class="brand__link"><img src="img/logos_google.png"
+											alt="google" class="brand__icon"></a>
+								</div>
+							</div>
+							<div class="brand__box-item">
+								<div class="box-item">
+									<a href="https://slack.com" target="_blank" class="brand__link"><img src="img/logos_slack.png"
+											alt="slack" class="brand__icon"></a>
+								</div>
+							</div>
+							<div class="brand__box-item">
+								<div class="box-item">
+									<a href="https://wordpress.com/ru/" target="_blank" class="brand__link"><img
+											src="img/logos_wordpress.png" alt="wordpress" class="brand__icon"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--BRAND-->
+
+		<!--NewcomerTOOLS-->
+
+		<section class="newcomer-tools">
+			<div class="container">
+				<div class="newcomer-tools__inner">
+					<div class="newcomer-tools__content">
+						<div class="newcomer-tools__titile">Newcomer Tools</div>
+						<div class="newcomer-tools__text">Wow! see the latest update of the most recommended tools from reliable
+							designers and developers </div>
+						<div class="newcomer-tools__btn"><a href="##" class="newcomer-tools__link">Explore more</a></div>
+					</div>
+					<div class="newcomer-tools__columns">
+						<div class="newcomer-tools__columns-box row2">
+							<div class="box-item_column newcomer-tools__box-item">
+								<div class="box-item">
+									<div class="box-item_figma-icon">
+										<img src="img/zeplin.png" alt="zeplin" class="figma-icon-title">
+									</div>
+									<div class="box-item_title">
+										Zeplin
+										<div class="box-item_subtile">Free & Paid</div>
+									</div>
+								</div>
+								<div class="box-item_text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</div>
+
+								<div class="box-item_iconItems">
+									<div class="box-item_icon">
+										<img class="box-item_icon_like" src="img/like.png" alt="">
+										<img src="img/like-active.png" alt="like" class="like-active">
+										<!--Поменять цвет картинки на красный( попробовать с svg)-->
+										<img class="box-item_icon_save" src="img/save.png" alt="">
+									</div>
+									<div class="figma-button"><a href="https://zeplin.io/" target="_blank"
+											class="figma-button_link box-item-button">Visit</a></div>
+								</div>
+							</div>
+							<div class="box-item_column newcomer-tools__box-item">
+								<div class="box-item">
+									<div class="box-item_figma-icon">
+										<img src="img/jb_phpstorm.png" alt="jb_phpstorm" class="figma-icon-title">
+									</div>
+									<div class="box-item_title">
+										PHPStorm
+										<div class="box-item_subtile">Free</div>
+									</div>
+								</div>
+								<div class="box-item_text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</div>
+
+								<div class="box-item_iconItems">
+									<div class="box-item_icon">
+										<img class="box-item_icon_like" src="img/like.png" alt="">
+										<img src="img/like-active.png" alt="like" class="like-active">
+										<!--Поменять цвет картинки на красный( попробовать с svg)-->
+										<img class="box-item_icon_save" src="img/save.png" alt="">
+									</div>
+									<div class="figma-button"><a href="https://www.jetbrains.com/phpstorm/" target="_blank"
+											class="figma-button_link box-item-button">Visit</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="newcomer-tools__columns-box">
+							<div class="box-item_column newcomer-tools__box-item">
+								<div class="box-item">
+									<div class="box-item_figma-icon">
+										<img src="img/jb_toolbox_app.png" alt="jb_toolbox_app" class="figma-icon-title">
+									</div>
+									<div class="box-item_title">
+										Toolbox
+										<div class="box-item_subtile">Free</div>
+									</div>
+								</div>
+								<div class="box-item_text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</div>
+
+								<div class="box-item_iconItems">
+									<div class="box-item_icon">
+										<img class="box-item_icon_like" src="img/like.png" alt="">
+										<img src="img/like-active.png" alt="like" class="like-active">
+										<!--Поменять цвет картинки на красный( попробовать с svg)-->
+										<img class="box-item_icon_save" src="img/save.png" alt="">
+									</div>
+									<div class="figma-button"><a href="https://www.jetbrains.com/toolbox-app/" target="_blank"
+											class="figma-button_link box-item-button">Visit</a></div>
+								</div>
+							</div>
+							<div class="box-item_column newcomer-tools__box-item">
+								<div class="box-item">
+									<div class="box-item_figma-icon">
+										<img src="img/procreate.png" alt="procreate" class="figma-icon-title">
+									</div>
+									<div class="box-item_title">
+										Procreate
+										<div class="box-item_subtile">Paid</div>
+									</div>
+								</div>
+								<div class="box-item_text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</div>
+
+								<div class="box-item_iconItems">
+									<div class="box-item_icon">
+										<img class="box-item_icon_like" src="img/like.png" alt="">
+										<img src="img/like-active.png" alt="like" class="like-active">
+										<!--Поменять цвет картинки на красный( попробовать с svg)-->
+										<img class="box-item_icon_save" src="img/save.png" alt="">
+									</div>
+									<div class="figma-button"><a href="https://procreate.art/" target="_blank"
+											class="figma-button_link box-item-button">Visit</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--NewcomerTOOLS-->
+
+		<!--SLIDER-->
+
+		<div class="slider-box">
+			<div class="container">
+				<div class="slider">
+					<div class="slider__item">
+						<div class="slider__item-img">
+							<img src="img/IMG_5076.JPG" alt="">
+						</div>
+						<div class="slider__item-text">
+							<p>Сложнее всего начать действовать, все остальное зависит только от упорства.</p>
+							<p>Если вы думаете, что на что-то способны, вы правы;<br> если думаете, что у вас ничего не получится - вы
+								тоже правы.</p>
+						</div>
+
+					</div>
+					<div class="slider__item">
+						<div class="slider__item-img">
+							<img src="img/IMG_5077.JPG" alt="">
+						</div>
+						<div class="slider__item-text">
+							<p>Слабые люди всю жизнь стараются быть не хуже других. Сильным во что бы то ни стало нужно стать лучше
+								всех.</p>
+						</div>
+
+					</div>
+					<div class="slider__item">
+						<div class="slider__item-img">
+							<img src="img/IMG_5078.JPG" alt="">
+						</div>
+						<div class="slider__item-text">
+							<p>Все дело в мыслях. Мысль — начало всего. И мыслями можно управлять. И поэтому главное дело
+								совершенствования: работать над мыслями.</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--SLIDER-->
+
+		<!--MAIL-BOX-->
+
+		<div class="mail-box">
+			<div class="container">
+				<div class="mail-box__inner">
+					<div class="mail-box__title">Become a contributor?</div>
+					<div class="mail-box__subtitle">Join us and get tips & tricks to become a great Designer and Developer</div>
+					<form>
+						<input type="text" placeholder="Enter your email...">
+						<button class="registration__button-active_link btn" type="submit">Join Us</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!--MAIL-BOX-->
+
+		<!--FOOTER-->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__item">
+						<div class="footer__logo-title">
+							<img src="img/logo.png" alt="">
+							<div class="footer__text">
+								antools.
+							</div>
+						</div>
+						<div class="footer__copyrigth">Copyright 2021. Antools</div>
+						<div class="footer__subtitle">
+							Antool is a web collection of information on paid or free Design and Development tools
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__copyrigth footer__title">Contact Us</div>
+						<div class="footer__subtitle">
+							<div class="footer__subtitle-item">+621987463</div>
+							<div class="footer__subtitle-item">M Building, No.10 A</div>
+							<div class="footer__subtitle-item">antools@awesome.com</div>
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__copyrigth footer__title">Categories</div>
+						<div class="footer__subtitle">
+							<div class="footer__subtitle-item">Design</div>
+							<div class="footer__subtitle-item">Development</div>
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__copyrigth footer__title">Company Info</div>
+						<div class="footer__subtitle">
+							<div class="footer__subtitle-item">About Us</div>
+							<div class="footer__subtitle-item">Our Partners</div>
+							<div class="footer__subtitle-item">Blog</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		<!--FOOTER-->
+
+	</wrapper>
+
+
+	<!-- Подключение скрипта -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script> <!-- для подключения скрипта -->
+	<script src="js/app.js"></script> <!-- мой файл скрипта -->
+
+	<!-- Подключение скрипта -->
 </body>
 
 </html>
