@@ -2,7 +2,7 @@
 	"security.workspace.trust.enabled": false,
 	"workbench.startupEditor": "newUntitledFile",
 	"editor.minimap.enabled": false,
-	"editor.tabSize": 2,
+	"editor.tabSize": 3,
 	"editor.smoothScrolling": true,
 	"files.autoSave": "afterDelay",
 	"editor.fontSize": 15,
@@ -13,7 +13,7 @@
 	"editor.glyphMargin": false,
 	"editor.hover.enabled": false, // отображение подсказок
 	"terminal.integrated.fontSize": 15,
-	"editor.renderWhitespace": "boundary",
+	"editor.renderWhitespace": "selection",
 	"editor.lineHeight": 23,
 	"editor.insertSpaces": false,
 	"editor.linkedEditing": true,
@@ -39,4 +39,5 @@
 	"explorer.confirmDragAndDrop": false,
 	"editor.fontFamily": "'Consolas, 'Courier New', monospace",
 	"editor.smartSelect.selectLeadingAndTrailingWhitespace": true,
+	"diffEditor.ignoreTrimWhitespace": true,
 }
