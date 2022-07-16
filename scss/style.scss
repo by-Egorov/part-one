@@ -61,14 +61,18 @@ body {
 			padding: 0;
 		}
 
-		li:hover>ul {
-			display: block;
+		li {
+			&:hover>ul {
+				display: block;
+			}
 		}
 
-		ul ul {
-			display: none;
-			top: 0;
-			left: 100%;
+		ul {
+			ul {
+				display: none;
+				top: 0;
+				left: 100%;
+			}
 		}
 	}
 
@@ -97,6 +101,9 @@ body {
 
 	&__link {
 		color: $color-title-text;
+		&:hover {
+			color: $color-bcg-btn;
+		}
 	}
 
 	&__list-sub {}
@@ -154,6 +161,8 @@ body {
 	}
 }
 
+//Main
+
 .main {
 	padding-top: 58px;
 
@@ -168,7 +177,13 @@ body {
 	}
 
 	&__image {
-		transform: translate(135px, 0px);
+		transform: translate(100px, -20px);
+		border-radius: 16px;
+		overflow: hidden;
+
+		img {
+			width: 600px;
+		}
 	}
 }
 
@@ -460,8 +475,6 @@ input {
 		transition: all 0.3s ease;
 	}
 }
-
-.check-label {}
 
 .form-btn {
 	font-family: inherit;
