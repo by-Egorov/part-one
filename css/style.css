@@ -782,7 +782,7 @@ input {
   margin-right: 15px;
 }
 
-.slick-dots li .slick-active button {
+.slick-dots .slick-active button {
   background-color: #F15B42;
   border: none;
 }

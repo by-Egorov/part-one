@@ -897,14 +897,14 @@ input {
 }
 
 .slick-dots {
-	li {
-		.slick-active {
-			button {
-				background-color: $color-bcg-btn;
-				border: none;
-			}
+
+	.slick-active {
+		button {
+			background-color: $color-bcg-btn;
+			border: none;
 		}
 	}
+
 }
 
 .slick-dots {
