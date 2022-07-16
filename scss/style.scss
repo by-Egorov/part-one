@@ -138,9 +138,20 @@ body {
 		&_link {}
 	}
 
-	&__button-signup {}
+	&__button-signup {
+		margin-right: 30px;
+		padding: 12px 28px;
+		color: $color-title-text;
+		background-color: $color-bcg-btn;
+		border-radius: 8px;
+	}
 
-	&__button-signin {}
+	&__button-signin {
+		padding: 12px 28px;
+		color: rgba(0, 0, 0, 0.7);
+		background-color: $color-title-text;
+		border-radius: 8px;
+	}
 }
 
 .main {
@@ -342,50 +353,225 @@ input {
 		text-transform: capitalize;
 		margin: 0 0 15px;
 	}
+
+	.description {
+		color: $color-subtitle-link;
+		font-size: 16px;
+		margin: 0 0 15px;
+		display: block;
+	}
 }
 
 
 
 .social-links {}
 
-.description {}
 
-.form-horizontal {}
 
-.form-group {}
+.form-horizontal {
+	.form-group {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 0 30px;
 
-.form-control {}
+		&:last-of-type {
+			text-align: left;
+			margin-bottom: 35px;
+			margin-top: 20px;
+		}
 
-.checkbox {}
+		.check-label {
+			color: $color-subtitle-link;
+			font-size: 16px;
+			font-weight: 400;
+			text-transform: none;
+			/* margin: -2.5px 0 0; */
+			/* vertical-align: text-top; */
+			display: inline-block;
+			padding-left: 5px;
+
+			a {
+				color: $color-bcg-btn;
+				transition: all 0.3s ease;
+
+				&:hover {
+					text-decoration: underline;
+					transition: all 0.3s ease;
+				}
+			}
+		}
+	}
+
+	.form-control {
+		font-family: 'Poppins', serif;
+		color: $color-input;
+		background: $color-title-text;
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 1px;
+		height: 40px;
+		padding: 6px 12px;
+		border-radius: 5px;
+		border: 2px solid $color-title-text;
+		box-shadow: none;
+		transition: all 0.3s ease 0s;
+
+		&:hover {
+			transition: all 0.3s ease 0s;
+		}
+
+		&:focus {
+			background-color: $color-title-text;
+			transition: all 0.3s ease 0s;
+			border-color: v$color-bcg-btn;
+			box-shadow: none;
+		}
+
+		&::-webkit-input-placeholder {
+			color: $color-input;
+			font-size: 16px;
+			font-weight: 300;
+		}
+
+		&:-ms-input-placeholder {
+			color: $color-input;
+			font-size: 16px;
+			font-weight: 300;
+		}
+
+		&::placeholder {
+			color: rgba(85, 85, 85, 0.593);
+			font-size: 12px;
+		}
+	}
+}
+
+.checkbox {
+	position: relative;
+	padding-left: 25px;
+
+	input[type=checkbox] {
+		display: none;
+
+		&:checked+label:after {
+			content: '\2713';
+			font-size: 15px;
+			background-color: $color-bcg-btn;
+			transition: all 0.3s ease;
+			border: none;
+		}
+	}
+
+	label:after {
+		content: '';
+		display: block;
+		height: 14px;
+		width: 14px;
+		outline: 1px solid $color-bcg-btn;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: all 0.3s ease;
+	}
+}
 
 .check-label {}
 
-.form-btn {}
+.form-btn {
+	font-family: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 0.5px;
+	font-size: inherit;
+	margin-top: 30px;
+}
 
+//Tools
 .tools {
-	&__inner {}
+	margin-top: 200px;
 
-	&__title {}
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-	&__subtitle {}
+	&__title {
+		font-size: 48px;
+		line-height: 62px;
+		color: $color-title-text;
+		padding-bottom: 25px;
+		text-shadow: $text-shadow;
+	}
 
-	&__column {}
+	&__subtitle {
+		width: 427px;
+		min-height: 60px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 30px;
+		color: $color-subtitle-link;
+	}
+
+	&__column {
+		margin-top: 92px;
+	}
 
 	&__button {}
 
 	&__button-link {}
 }
 
+
+
 .columns {
 	&__box {}
 
-	&__box-item {}
+	&__box-item {
+		display: flex;
+	}
 }
 
-.row1 {}
+.row1 {
+	margin-bottom: 100px;
+}
 
 .box-item {
-	&_column {}
+	display: flex;
+	align-items: center;
+
+	&_column {
+		display: flex;
+		flex-direction: column;
+		padding: 33px;
+		margin-right: 25px;
+		border-radius: 15px;
+		transition: all 0.6s ease 0s;
+		cursor: default;
+		border: 1px solid transparent;
+		border-radius: 15px 20px 15px 20px/20px 15px 20px 15px;
+
+		&:hover {
+			background: rgba(40, 48, 54, 0.6);
+			color: $color-bcg-btn;
+			border: 1px solid $color-bcg-btn;
+			transition: all 0.6s ease 0s;
+			transform: scale3d(1.2, 1.2, 1.2);
+			border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+			.box-item_title {
+				color: rgba(255, 255, 255, 0.92);
+				transition: all 0.6s ease 0s;
+			}
+
+			.box-item_subtile {
+				color: #FFA537;
+				transition: all 0.6s ease 0s;
+			}
+		}
+	}
 
 	&_figma-icon {}
 
