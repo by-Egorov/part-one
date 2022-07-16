@@ -46,7 +46,6 @@ body {
 	}
 }
 
-.logo {}
 
 .menu {
 	&__list {
@@ -101,12 +100,11 @@ body {
 
 	&__link {
 		color: $color-title-text;
+
 		&:hover {
 			color: $color-bcg-btn;
 		}
 	}
-
-	&__list-sub {}
 
 	&__item-sub {
 		font-weight: 500;
@@ -141,10 +139,6 @@ body {
 		border-radius: 8px;
 	}
 
-	&__button-active {
-		&_link {}
-	}
-
 	&__button-signup {
 		margin-right: 30px;
 		padding: 12px 28px;
@@ -177,13 +171,9 @@ body {
 	}
 
 	&__image {
-		transform: translate(100px, -20px);
+		transform: translate(135px, 0px);
 		border-radius: 16px;
 		overflow: hidden;
-
-		img {
-			width: 600px;
-		}
 	}
 }
 
@@ -536,7 +526,6 @@ input {
 
 
 .columns {
-	&__box {}
 
 	&__box-item {
 		display: flex;
@@ -591,7 +580,6 @@ input {
 		}
 	}
 
-	&_figma-icon {}
 
 	&_title {
 		font-size: 24px;
@@ -601,7 +589,6 @@ input {
 
 	}
 
-	&_subtile {}
 
 	&_text {
 		width: 326px;
@@ -628,20 +615,8 @@ input {
 		padding-right: 19px;
 	}
 
-	&_icon {}
-
-	&_sketch-icon {}
-
-	&_vsCode-icon {}
-
-	&_notion-icon {}
-
-	&_slack-icon {}
-
-	&_invision-icon {}
 }
 
-.figma-icon-title {}
 
 .like-active {
 	position: absolute;
@@ -649,10 +624,6 @@ input {
 	left: -14px;
 	display: none;
 	transition: all 0.6s ease 0s;
-}
-
-.figma-button {
-	&_link {}
 }
 
 .box-item-button {
@@ -664,38 +635,8 @@ input {
 	transition: all 0.6s ease 0s;
 }
 
-.sketch-icon {}
-
-.sketch-button {
-	&_link {}
-}
-
-.vsCode-icon {}
-
-.vsCode-button {
-	&_link {}
-}
-
 .row2 {
 	margin-bottom: 50px;
-}
-
-.notion-icon {}
-
-.notion-button {
-	&_link {}
-}
-
-.slack-icon {}
-
-.slack-button {
-	&_link {}
-}
-
-.invision-icon {}
-
-.invision-button {
-	&_link {}
 }
 
 //Brand
@@ -739,9 +680,6 @@ input {
 		}
 	}
 
-	&__link {}
-
-	&__icon {}
 }
 
 //Newcomer tools
@@ -775,16 +713,12 @@ input {
 		padding-bottom: 60px;
 	}
 
-	&__btn {}
-
 	&__link {
 		padding: 12px 28px;
 		color: $color-title-text;
 		background-color: $color-bcg-btn;
 		border-radius: 8px;
 	}
-
-	&__columns {}
 
 	&__columns-box {
 		display: flex;
@@ -820,8 +754,6 @@ input {
 		align-items: center;
 		position: relative;
 	}
-
-	&__item-img {}
 
 	&__item-text {
 		padding-top: 80px;

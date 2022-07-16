@@ -229,12 +229,9 @@ body {
   padding-right: 10px;
 }
 .main__image {
-  transform: translate(100px, -20px);
+  transform: translate(135px, 0px);
   border-radius: 16px;
   overflow: hidden;
-}
-.main__image img {
-  width: 600px;
 }
 
 .content__title {
@@ -611,6 +608,7 @@ input {
 .box-item_icon_like {
   padding-right: 19px;
 }
+
 .like-active {
   position: absolute;
   top: -8px;
@@ -665,6 +663,7 @@ input {
 .brand__box-item + .brand__box-item {
   margin-left: 107px;
 }
+
 .newcomer-tools {
   margin-top: 220px;
 }
