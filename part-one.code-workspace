@@ -11,7 +11,7 @@
 	"editor.tabSize": 3,
 	"editor.smoothScrolling": true,
 	"files.autoSave": "afterDelay",
-	"editor.fontSize": 15,
+	"editor.fontSize": 14,
 	"breadcrumbs.enabled": false,
 	"files.defaultLanguage": "html",
 	"editor.detectIndentation": false,
@@ -19,7 +19,7 @@
 	"editor.glyphMargin": false,
 	"editor.hover.enabled": false, // отображение подсказок
 	"terminal.integrated.fontSize": 15,
-	"editor.renderWhitespace": "selection",
+	"editor.renderWhitespace": "boundary",
 	"editor.lineHeight": 23,
 	"editor.linkedEditing": true,
 	"ecsstractor_port.add_comment": false,
@@ -39,12 +39,12 @@
 		"/.vscode/**"
 	],
 	"workbench.colorTheme": "One Dark Pro",
-	"workbench.productIconTheme": "bootstrap-product-icons",
+	"workbench.productIconTheme": "Default",
 	"workbench.iconTheme": "material-icon-theme",
 	"explorer.confirmDragAndDrop": false,
-	"editor.fontFamily": "'Consolas, 'Courier New', monospace",
 	"editor.comments.insertSpace": false,
 	"scm.diffDecorationsIgnoreTrimWhitespace": "true",
 	"editor.insertSpaces": false,
+	"editor.fontFamily": "Consolas', 'Courier New', monospace",
 	}
 }
