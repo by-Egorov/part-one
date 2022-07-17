@@ -7,11 +7,41 @@
 
 /* lg <= Extra large (xl) */
 @media (max-width : 1200px) {
-
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+.columns__box-item {
+	flex-wrap: wrap;
+}
+.brand__box-column {
+	flex-direction: column;
+}
+.brand__box-item  + .brand__box-item {
+	margin: 0;
+	padding-top: 20px;
+}
+.newcomer-tools__inner {
+	flex-direction: column;
+	align-items: center;
+}
+.newcomer-tools__content {
+	align-items: center;
+}
+.newcomer-tools__columns {
+	margin-top: 100px;
+}
 }
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+.columns__box-item {
+	justify-content: center;
+}
 
 }
 
