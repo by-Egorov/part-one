@@ -129,6 +129,9 @@ body {
   color: rgba(255, 255, 255, 0.9);
   padding-left: 12px;
 }
+.header__burger {
+  display: none;
+}
 
 .menu__list {
   display: flex;
@@ -681,6 +684,7 @@ input {
   font-size: 48px;
   line-height: 130%;
   color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 0px 20px rgb(238, 157, 9), 0px 0px 43px rgb(243, 135, 7);
 }
 .newcomer-tools__text {
   font-size: 18px;
@@ -817,6 +821,7 @@ input {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   padding-bottom: 25px;
+  text-shadow: 0px 0px 20px rgb(238, 157, 9), 0px 0px 43px rgb(243, 135, 7);
 }
 .mail-box__subtitle {
   max-width: 426px;
@@ -833,7 +838,7 @@ input {
 
 .footer {
   margin-top: 240px;
-  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.15);
 }
 .footer__inner {
   color: rgba(255, 255, 255, 0.9);
