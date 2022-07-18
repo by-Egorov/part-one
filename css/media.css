@@ -157,10 +157,12 @@
 		background-color: transparent;
 		transition: all 0.5s ease 0s;
 	}
+
 	.menu__list {
 		justify-content: space-evenly;
 	}
-	.menu.active{
+
+	.menu.active {
 		left: 0;
 		top: 100px;
 		padding: 0;
