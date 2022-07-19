@@ -26,7 +26,6 @@ body {
 	flex: 0 1 auto;
 }
 
-
 //Main
 
 .main {
@@ -123,9 +122,6 @@ input {
 	padding-left: 30px;
 }
 
-
-
-
 //Tools
 
 .tools {
@@ -173,8 +169,6 @@ input {
 		line-height: 30px;
 	}
 }
-
-
 
 .columns {
 
@@ -231,7 +225,6 @@ input {
 		}
 	}
 
-
 	&_title {
 		font-size: 24px;
 		line-height: 36px;
@@ -239,7 +232,6 @@ input {
 		padding-left: 30px;
 
 	}
-
 
 	&_text {
 		width: 326px;
@@ -265,9 +257,7 @@ input {
 	&_icon_like {
 		padding-right: 19px;
 	}
-
 }
-
 
 .like-active {
 	position: absolute;
