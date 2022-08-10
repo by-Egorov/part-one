@@ -4,27 +4,28 @@
 @media (max-width : 1400px) {}
 
 /* lg <= Extra large (xl) */
-@media (max-width : 1200px) {
-	
-}
+@media (max-width : 1200px) {}
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
+	.main__image {}
 
-	
 
 }
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
-	
+	.tools__column {
+		padding-left: 50px;
+	}
+	.columns__box {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows:repeat(3) auto;
+	}
 }
 
 /* xs <= Small (sm) */
-@media (max-width : 576px) {
-	
-
-}
+@media (max-width : 576px) {}
 
 
 /* === MOBILE FIRST === */
