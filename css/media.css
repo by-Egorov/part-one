@@ -8,7 +8,6 @@
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
-	.main__image {}
 
 
 }
@@ -22,6 +21,10 @@
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows:repeat(3) auto;
 	}
+	.box-item_column {
+	padding: 20px 0;
+	margin: 0;
+	 }
 }
 
 /* xs <= Small (sm) */

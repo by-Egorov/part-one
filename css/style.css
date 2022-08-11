@@ -710,6 +710,7 @@ input {
 .box-item_column {
 	display: flex;
 	flex-direction: column;
+
 	padding: 33px;
 	margin-right: 25px;
 	border-radius: 15px;
@@ -876,8 +877,11 @@ input {
 	border-radius: 8px;
 }
 
-.newcomer-tools__columns-box {
-	display: flex;
+.newcomer-tools__columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 50px 24px;
 }
 
 .newcomer-tools__box-item {
